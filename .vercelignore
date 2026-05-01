@@ -1,0 +1,25 @@
+# Dependencies — Vercel installs these fresh via pnpm install
+  node_modules
+  .pnpm-store
+
+  # Local env overrides — never needed in CI
+  .env.local
+  .env.*.local
+
+  # Logs
+  *.log
+  npm-debug.log*
+  pnpm-debug.log*
+
+  # Build output — regenerated during Vercel build
+  artifacts/karan/dist
+  artifacts/api-server/dist
+
+  # TypeScript incremental build cache — not needed in CI
+  **/*.tsbuildinfo
+
+  # Editor / OS noise
+  .DS_Store
+  *.swp
+  *.swo
+  
