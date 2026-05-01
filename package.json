@@ -14,7 +14,8 @@
     "prettier": "^3.8.1"
   },
   "engines": {
-    "node": "20.x"
+    "node": "20.x",
+    "pnpm": ">=10"
   },
   "packageManager": "pnpm@10.26.1"
 }
